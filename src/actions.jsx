@@ -4,5 +4,6 @@ var Reflux = require('reflux');
 // in this simple usage, these actions act simply as a proxy for calling the methods directly in your components.
 module.exports = Reflux.createActions([
   "getTopics",
-  "getImages"
+  "getImages",
+  "getImage"
 ]);
